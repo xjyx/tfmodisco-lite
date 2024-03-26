@@ -194,7 +194,7 @@ if args.cmd == "motifs":
 		hypothetical_contribs=attributions, 
 		one_hot=sequences,
 		max_seqlets_per_metacluster=args.max_seqlets,
-		sliding_window_size=20,
+		sliding_window_size=15,
 		flank_size=5,
 		target_seqlet_fdr=0.5, ## increase the FDR
 		n_leiden_runs=args.n_leiden,
